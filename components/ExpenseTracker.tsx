@@ -13,7 +13,7 @@ import {
 const ExpenseTracker = () => {
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState({ name: "", amount: "", date: "" });
-  const [expenses, setExpenses] = useState<{name: string; amount: string; date: string;}[]>([])
+  const [expenses, setExpenses] = useState<{name: string; amount: string; date: string;}[]>([])  // initialized array of expenses, and setExpenses stores the value into the Expenses Array
 
   // functions
   const toggleForm = () => {
